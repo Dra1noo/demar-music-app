@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #ffd700;
+  font-family: Arial;
+}
+
+a {
+  color: #b19cd9;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  background: #000;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #b19cd9;
+}
+
+.card {
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(177, 156, 217, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  background: #111;
+  margin: 20px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(177, 156, 217, 0.6);
+}
+
+.artist-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
